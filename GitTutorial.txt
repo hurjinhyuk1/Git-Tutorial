@@ -1,0 +1,25 @@
+Git 
+저장소: 소스코드가 저장되는 공간.
+하나의 프로젝트가 담기는 공간
+그냥 프로젝트라고 생각한다.
+
+git clone으로 저장소에 접근
+그냥 다운로드라고 생각한다.
+
+
+우리 컴퓨터도 local 저장소라
+github 주소를 remote 저장소
+
+우리 프로젝트에 추가함 git add []
+git commit -m "
+실제로 업로드된 상태를 스냅샷 찍은것처럼 나중에 복구할 수 있음.
+git push로 원격 저장소도 업로드
+
+git add -> git commit -> git push 로 local에서 remote로 저장
+git fetch-> git merge == git pull로 remote에 있는 내용을 local로 가져옴 
+--------
+
+
+우선 git clone --git주소---로 다운로드한다.
+추가할 내용을 하고 추가된 폴더에서 git add [추가된 파일]
+git push로 git으로 올린다.
